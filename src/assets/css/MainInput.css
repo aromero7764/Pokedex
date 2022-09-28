@@ -1,0 +1,13 @@
+.maininput {
+    padding-top: 405px;
+    margin: 0 auto;
+}
+
+.maininputCard {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    place-items: center;
+    background: url("../img/backgroung.png") no-repeat center center fixed;
+    background-size: cover;
+}
