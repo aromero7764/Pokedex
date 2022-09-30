@@ -26,7 +26,7 @@ const Pokedex = () => {
     const dispatch = useDispatch();
 
     useEffect(()=> {
-            axios.get('https://pokeapi.co/api/v2/pokemon/?offset=0&limit=60')
+            axios.get('https://pokeapi.co/api/v2/pokemon/?offset=0&limit=1156')
             .then(res => setPokemonList(res.data.results) )      
             .finally(() => setLoading(false))
 
